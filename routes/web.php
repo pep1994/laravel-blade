@@ -28,3 +28,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/numbers', function () {
+
+    $last_number = 99;
+    
+    return view('numbers', compact('last_number'));
+});
+
+
