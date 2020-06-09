@@ -1,0 +1,42 @@
+header {
+  background-color: green;
+  height: 10vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+header p {
+  margin: auto;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+footer p {
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 80vh;
+  display: flex;
+  color: black;
+  background-color: grey;
+  align-items: center;
+  flex-direction: column;
+}
+
+main p {
+  margin: auto;
+}
+

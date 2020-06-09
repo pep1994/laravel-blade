@@ -1,0 +1,22 @@
+@import 'header';
+@import 'footer';
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+      height: 80vh;
+      display: flex;
+      color: black;
+      background-color: grey;
+      align-items: center;
+      flex-direction: column;
+
+      p {
+          margin: auto;
+      }
+  }
+  
